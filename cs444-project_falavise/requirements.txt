@@ -1,0 +1,12 @@
+torch
+torchvision
+torchtext
+tabulate
+tqdm
+pillow
+matplotlib
+wandb
+opencv-python
+pycocotools
+tabulate
+gdown
