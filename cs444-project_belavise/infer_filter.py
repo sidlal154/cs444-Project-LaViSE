@@ -520,7 +520,7 @@ def main(args: argparse.Namespace):
             ann_file=os.path.join(root,
                                   "annotations/instances_train2017-animal-nocrowd.json"),
             root=os.path.join(root, "train2017"),
-            cat_mappings_file=os.path.join(root, "cat_mappings.pkl"),
+            cat_mappings_file=os.path.join(root, "cat_mappings_bert.pkl"),
             transform=data_transforms["train"],
             filter_width=filter_width,
             filter_height=filter_height
@@ -529,7 +529,7 @@ def main(args: argparse.Namespace):
             ann_file=os.path.join(root,
                                   "annotations/instances_val2017-animal-nocrowd.json"),
             root=os.path.join(root, "val2017"),
-            cat_mappings_file=os.path.join(root, "cat_mappings.pkl"),
+            cat_mappings_file=os.path.join(root, "cat_mappings_bert.pkl"),
             transform=data_transforms["val"],
             filter_width=filter_width,
             filter_height=filter_height
